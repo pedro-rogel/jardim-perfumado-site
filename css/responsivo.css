@@ -1,0 +1,103 @@
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        /* Reduz o tamanho da fonte para dispositivos móveis */
+    }
+
+    .cabecalho .texto-cabecalho {
+        width: 100%;
+        /* Define a largura para ocupar toda a largura da tela */
+        text-align: center;
+        /* Centraliza o texto */
+        padding: 10px;
+        /* Adiciona um pouco de espaçamento interno */
+    }
+
+    .texto-cabecalho h1 {
+        font-size: 30px;
+        /* Reduz o tamanho do título */
+    }
+
+    .info {
+        display: none;
+        /* Esconde o menu de navegação para dispositivos móveis */
+    }
+
+    .container-img {
+        width: 100%;
+        /* Define a largura para ocupar toda a largura da tela */
+        flex-direction: column;
+        /* Altera a direção do flex para empilhar verticalmente */
+    }
+
+    .nos,
+    .textos {
+        width: 100%;
+        /* Define a largura para ocupar toda a largura da tela */
+        margin: 10px 0;
+        /* Adiciona um pouco de espaçamento entre os elementos */
+    }
+
+    .nos {
+        height: 300px;
+        /* Reduz a altura da div .nos para dispositivos móveis */
+    }
+
+    .textos h1,
+    .textos h3 {
+        width: 90%;
+        /* Define a largura para 90% da tela */
+        margin: 0 auto;
+        /* Centraliza os textos */
+    }
+
+    .container-1,
+    .container-2,
+    .container-3 {
+        width: 90%;
+        /* Define a largura para 90% da tela */
+        margin: 10px auto;
+        /* Centraliza os containers */
+        flex-direction: column;
+        /* Altera a direção do flex para empilhar verticalmente */
+    }
+
+    .imagem-1,
+    .imagem-2,
+    .imagem-3 {
+        width: 100%;
+        /* Define a largura para ocupar toda a largura do container */
+        height: 200px;
+        /* Reduz a altura das imagens para dispositivos móveis */
+        border-radius: 12px 12px 0 0;
+        /* Ajusta o raio da borda */
+    }
+
+    .descripition-text-1,
+    .descripition-text-2,
+    .descripition-text-3 {
+        width: 100%;
+        /* Define a largura para ocupar toda a largura do container */
+        height: auto;
+        /* Ajusta a altura automaticamente */
+        border-radius: 0 0 12px 12px;
+        /* Ajusta o raio da borda */
+    }
+
+    .valor-1,
+    .valor-2,
+    .valor-3 {
+        flex-direction: column;
+        /* Altera a direção do flex para empilhar verticalmente */
+        align-items: center;
+        /* Centraliza os elementos */
+    }
+
+    .valor-1 div,
+    .valor-2 div,
+    .valor-3 div {
+        margin: 5px 0;
+        /* Adiciona um pouco de espaçamento entre os elementos */
+    }
+}
