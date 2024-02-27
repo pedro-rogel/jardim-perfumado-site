@@ -1,0 +1,105 @@
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduzir o tamanho da fonte */
+    }
+
+    .cabecalho {
+        height: 80px; /* Reduzir a altura do cabeçalho */
+    }
+
+    .texto-cabecalho {
+        width: auto; /* Permitir que o texto do cabeçalho se ajuste dinamicamente */
+    }
+
+    .texto-cabecalho h1 {
+        font-size: 30px; /* Reduzir o tamanho da fonte do cabeçalho */
+        margin-top: 0; /* Remover a margem superior */
+    }
+
+    .info {
+        display: none; /* Ocultar os links de informações do cabeçalho */
+    }
+
+    .container-img {
+        width: auto; /* Permitir que as imagens se ajustem dinamicamente */
+        flex-direction: column; /* Empilhar as divs verticalmente */
+        align-items: center; /* Centralizar o conteúdo */
+    }
+
+    .nos, .textos {
+        width: 100%; /* Utilizar toda a largura disponível */
+        height: auto; /* Permitir que a altura seja ajustada automaticamente */
+        margin: 20px 0; /* Adicionar margens superiores e inferiores */
+    }
+
+    .nos {
+        border-radius: 0; /* Remover o raio de borda */
+    }
+
+    .textos h1 {
+        font-size: 24px; /* Reduzir o tamanho da fonte */
+        width: auto; /* Permitir que o texto se ajuste dinamicamente */
+    }
+
+    .textos h3 {
+        font-size: 16px; /* Reduzir o tamanho da fonte */
+        width: auto; /* Permitir que o texto se ajuste dinamicamente */
+        margin-right: 0; /* Remover a margem direita */
+    }
+
+    .container-1, .container-2, .container-3 {
+        width: 90%; /* Utilizar 90% da largura disponível */
+        margin: 20px auto; /* Centralizar horizontalmente com margens superior e inferior */
+    }
+
+    .imagem-1, .imagem-2, .imagem-3 {
+        width: 100%; /* Utilizar toda a largura disponível */
+        height: auto; /* Permitir que a altura seja ajustada automaticamente */
+    }
+
+    .descripition-text-1, .descripition-text-2, .descripition-text-3 {
+        width: 100%; /* Utilizar toda a largura disponível */
+        margin-top: 10px; /* Adicionar margem superior */
+    }
+
+    .valor-1, .valor-2, .valor-3 {
+        max-width: none; /* Remover a largura máxima */
+        flex-direction: column; /* Empilhar os elementos verticalmente */
+        align-items: center; /* Centralizar o conteúdo */
+    }
+
+    .promocao-valor-1, .promocao-valor-2, .promocao-valor-3 {
+        margin: 0; /* Remover a margem */
+        text-align: center; /* Centralizar o texto */
+    }
+
+    .botao-1, .botao-2, .botao-3 {
+        width: 100%; /* Utilizar toda a largura disponível */
+        margin-top: 20px; /* Adicionar margem superior */
+    }
+
+    .logos {
+        width: 90%; /* Utilizar 90% da largura disponível */
+        margin: 20px auto; /* Centralizar horizontalmente com margens superior e inferior */
+    }
+
+    .logos .texto-logo h1 {
+        font-size: 20px; /* Reduzir o tamanho da fonte */
+        margin-bottom: 30px; /* Aumentar a margem inferior */
+    }
+
+    .img-logo-1, .img-logo-2 {
+        width: 100%; /* Utilizar toda a largura disponível */
+        margin-bottom: 20px; /* Adicionar margem inferior */
+    }
+
+    .contatos {
+        width: 90%; /* Utilizar 90% da largura disponível */
+        margin: 20px auto; /* Centralizar horizontalmente com margens superior e inferior */
+    }
+
+    .contatos p {
+        padding: 10px; /* Reduzir o preenchimento */
+    }
+}
