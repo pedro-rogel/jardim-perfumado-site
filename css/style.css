@@ -95,7 +95,7 @@ body {
 }
 
 .nos {
-    background-image: url(/img/slogan-corrigido.jpg);
+    background-image: url(../img/slogan-corrigido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 12px;
@@ -106,8 +106,10 @@ body {
     margin-right: 20px;
 }
 
+
+
 .textos {
-    background-image: url(/img/loogo-jardim.jpg);
+    background-image: url(../img/loogo-jardim.jpg);
     background-size: cover;
     height: 600px;
     width: 600px;
@@ -171,7 +173,7 @@ body {
 .imagem-1{
     width: 400px;
     height: 400px;
-    background-image: url(/img/girassol.jpg);
+    background-image: url(../img/girassol.jpg);
     background-size: cover;
     border-radius: 11px;
     background-repeat: no-repeat;
@@ -285,7 +287,7 @@ body {
 .imagem-2{
     width: 400px;
     height: 400px;
-    background-image: url(/img/flor-larangeira.jpg);
+    background-image: url(../img/flor-larangeira.jpg);
     background-size: cover;
     border-radius: 11px;
     background-repeat: no-repeat;
@@ -406,7 +408,7 @@ p {
 .imagem-3{
     width: 400px;
     height: 400px;
-    background-image: url(/img/uvas-sementes.jpg);
+    background-image: url(../img/uvas-sementes.jpg);
     background-size: cover;
     border-radius: 11px;
     background-repeat: no-repeat;
